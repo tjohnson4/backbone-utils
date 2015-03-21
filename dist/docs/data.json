@@ -1,0 +1,86 @@
+{
+    "project": {
+        "name": "backbone-utils",
+        "description": "Utility library for Backbone applications",
+        "version": "0.0.1",
+        "url": "https://github.com/tjohnson4/backbone-utils"
+    },
+    "files": {
+        "src/utils/TemplateUtil.js": {
+            "name": "src/utils/TemplateUtil.js",
+            "modules": {},
+            "classes": {
+                "TemplateUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "TemplateUtil": {
+            "name": "TemplateUtil",
+            "shortname": "TemplateUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/utils/TemplateUtil.js",
+            "line": 3,
+            "description": "Utility class for loading and caching template files",
+            "requires": [
+                "underscore",
+                "jquery"
+            ],
+            "is_constructor": 1
+        }
+    },
+    "classitems": [
+        {
+            "file": "src/utils/TemplateUtil.js",
+            "line": 13,
+            "description": "The default location of the template files relative to the root of the application server",
+            "itemtype": "property",
+            "name": "PATH",
+            "type": "String",
+            "static": 1,
+            "class": "TemplateUtil"
+        },
+        {
+            "file": "src/utils/TemplateUtil.js",
+            "line": 22,
+            "description": "The base URI to use if it differs from the location of the application",
+            "itemtype": "property",
+            "name": "BASE_URI",
+            "type": "String",
+            "static": 1,
+            "class": "TemplateUtil"
+        },
+        {
+            "file": "src/utils/TemplateUtil.js",
+            "line": 31,
+            "description": "Loads or fetches template file from cache, renders it\nusing underscore template method and returns a html\nstring",
+            "itemtype": "method",
+            "name": "render",
+            "params": [
+                {
+                    "name": "templateName",
+                    "description": "The filename of the template without the file extension",
+                    "type": "String"
+                },
+                {
+                    "name": "templateData",
+                    "description": "The data to be passed to the template method",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "The final html string",
+                "type": "String"
+            },
+            "class": "TemplateUtil"
+        }
+    ],
+    "warnings": []
+}
