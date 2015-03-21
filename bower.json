@@ -5,6 +5,14 @@
     "authors" : [
         "Todd Johnson <tjohnson4@gmail.com>"
     ],
+    "main": "lib/backbone.wreqr.js",
+    "keywords": [
+        "backbone",
+        "plugin",
+        "computed",
+        "field",
+        "model"
+    ],
     "dependencies" : {
         "jquery"     : "~1.11.2",
         "underscore" : "~1.8.2"
