@@ -26,7 +26,7 @@ module.exports = function(grunt) {
                 }
             },
 
-            regular : {
+            default : {
                 options : {
                     mangle   : false,
                     compress : false,
@@ -67,4 +67,8 @@ module.exports = function(grunt) {
 
     // Default task(s).
     grunt.registerTask("default", ["uglify", "yuidoc"]);
+
+    grunt.registerTask("patch", ["bump:patch", "uglify", "yuidoc"]);
+    grunt.registerTask("minor", ["bump:minor", "uglify", "yuidoc"]);
+    grunt.registerTask("major", ["bump:major", "uglify", "yuidoc"]);
 };

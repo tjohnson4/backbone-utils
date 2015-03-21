@@ -2,7 +2,7 @@
     "project": {
         "name": "backbone-utils",
         "description": "Utility library for Backbone applications",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "url": "https://github.com/tjohnson4/backbone-utils"
     },
     "files": {

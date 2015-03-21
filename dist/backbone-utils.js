@@ -1,4 +1,4 @@
-/*!  v0.0.1 | build date : 2015-03-20 */
+/*!  v0.0.2 | build date : 2015-03-21 */
 (function(window) {
     function TemplateUtil() {}
     TemplateUtil.PATH = "/templates";

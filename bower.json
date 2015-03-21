@@ -1,7 +1,7 @@
 {
     "name" : "backbone-utils",
-    "version" : "0.0.1",
-    "homepage" : "https://github.com/tjohnson4/backbone-utils",
+    "version" : "0.0.2",
+    "homepage" : "git@github.com:tjohnson4/backbone-utils.git",
     "authors" : [
         "Todd Johnson <tjohnson4@gmail.com>"
     ],
