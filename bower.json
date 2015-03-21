@@ -1,20 +1,24 @@
 {
-  "name": "backbone-utils",
-  "version": "0.0.1",
-  "homepage": "https://github.com/tjohnson4/backbone-utils",
-  "authors": [
-    "Todd Johnson <tjohnson4@gmail.com>"
-  ],
-  "description": "\"Utility library for Backbone applications\"",
-  "keywords": [
-    "backbone"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+    "name" : "backbone-utils",
+    "version" : "0.0.1",
+    "homepage" : "https://github.com/tjohnson4/backbone-utils",
+    "authors" : [
+        "Todd Johnson <tjohnson4@gmail.com>"
+    ],
+    "dependencies" : {
+        "jquery"     : "~1.11.2",
+        "underscore" : "~1.8.2"
+    },
+    "description" : "\"Utility library for Backbone applications\"",
+    "keywords" : [
+        "backbone"
+    ],
+    "license" : "MIT",
+    "ignore" : [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
 }
