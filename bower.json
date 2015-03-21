@@ -14,8 +14,8 @@
         "model"
     ],
     "dependencies" : {
-        "jquery"     : "~1.11.2",
-        "underscore" : "~1.8.2"
+        "jquery"     : "~2.1.3",
+        "underscore" : ">= 1.5.0"
     },
     "description" : "\"Utility library for Backbone applications\"",
     "keywords" : [
